@@ -1,0 +1,25 @@
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: white;
+}
+.ufo, .bullet {
+    position: absolute;
+}
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+}
+#counter{
+    text-align:center;
+    font-size: xx-large;
+    color:white;
+}
+body{
+    background-image: url(bg.jpg);
+}
